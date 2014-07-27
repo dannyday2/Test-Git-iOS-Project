@@ -21,6 +21,7 @@
 		6FD44F131985B859005430C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD44EF51985B859005430C3 /* UIKit.framework */; };
 		6FD44F1B1985B859005430C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FD44F191985B859005430C3 /* InfoPlist.strings */; };
 		6FD44F1D1985B859005430C3 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD44F1C1985B859005430C3 /* Git_TestTests.m */; };
+		6FD44F281985BB71005430C3 /* DAYTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD44F271985BB71005430C3 /* DAYTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6FD44F181985B859005430C3 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		6FD44F1A1985B859005430C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6FD44F1C1985B859005430C3 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		6FD44F261985BB71005430C3 /* DAYTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAYTest.h; sourceTree = "<group>"; };
+		6FD44F271985BB71005430C3 /* DAYTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAYTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				6FD44F011985B859005430C3 /* DAYAppDelegate.m */,
 				6FD44F031985B859005430C3 /* Main.storyboard */,
 				6FD44F061985B859005430C3 /* DAYViewController.h */,
+				6FD44F261985BB71005430C3 /* DAYTest.h */,
+				6FD44F271985BB71005430C3 /* DAYTest.m */,
 				6FD44F071985B859005430C3 /* DAYViewController.m */,
 				6FD44F091985B859005430C3 /* Images.xcassets */,
 				6FD44EF81985B859005430C3 /* Supporting Files */,
@@ -252,6 +257,7 @@
 			files = (
 				6FD44EFE1985B859005430C3 /* main.m in Sources */,
 				6FD44F021985B859005430C3 /* DAYAppDelegate.m in Sources */,
+				6FD44F281985BB71005430C3 /* DAYTest.m in Sources */,
 				6FD44F081985B859005430C3 /* DAYViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
